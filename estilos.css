@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url('img/img1.jpg') no-repeat;
+}
+ 
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 10;
+  }
+  h3 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+ 
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 2rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos de las secciones */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    margin-top: 10;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 1rem;
+  }
+  
